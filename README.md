@@ -4,7 +4,7 @@ An extension for the Vue-Material Table component that only needs a specifically
 
 ### Usage
 
-I make a lot of dashboards for different types of data analysis, and a lot of this info gets put into a table format
+I make a lot of dashboards for different types of data analysis, and a lot of this info gets put into a table format.
 
 The `vue-material` Table component is awesome for this, being able to model a list of objects and already comes with built in sorting and search. The only issue I had was in having different numbers of columns and displaying/formatting data in different ways.
 
