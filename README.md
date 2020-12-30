@@ -30,13 +30,13 @@ Within the component you can add a method that will return different string form
       "avgVol": 244877,
       "increase": 940,
       "price": 1.98
-    },
+    }, ...
   ],
   "fields": [
     { "display": "Volume", "field": "volume", "type": "int" },
     { "display": "Average Volume", "field": "avgVol", "type": "int" },
     { "display": "Increase", "field": "increase", "type": "percent" },
-    { "display": "Price", "field": "price", "type": "dollar" }
+    { "display": "Price", "field": "price", "type": "dollar" }, ...
   ]
 }
 ```
