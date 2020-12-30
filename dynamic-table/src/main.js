@@ -1,8 +1,22 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App';
 
-Vue.config.productionTip = false
+import {
+  MdToolbar,
+  MdContent,
+  MdTable,
+  MdCard,
+} from 'vue-material/dist/components';
+import 'vue-material/dist/vue-material.min.css';
+import 'vue-material/dist/theme/default.css';
+
+Vue.use(MdToolbar);
+Vue.use(MdContent);
+Vue.use(MdTable);
+Vue.use(MdCard);
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  el: '#app',
+  components: { App },
+  template: '<App/>',
+});
