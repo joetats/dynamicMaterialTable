@@ -1,6 +1,6 @@
 # Dynamic Vue Material Table
 
-An extension for the Vue-Material Table component that only needs a specifically formatted object passed to it.
+An extension for the Vue-Material Table component that only needs a specifically formatted object passed to it to generate and format the required columns.
 
 ### Usage
 
